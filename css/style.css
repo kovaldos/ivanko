@@ -4395,14 +4395,14 @@ label:focus .custom-textarea__label {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 0 -10px;
+  margin: 0 -5px;
 }
 
 .main-nav__item {
   -webkit-box-flex: 1;
   -ms-flex: 1 0 0px;
   flex: 1 0 0;
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .main-nav__item--mobile-only {
@@ -5097,7 +5097,7 @@ label:focus .custom-textarea__label {
 
 .about__desc {
   max-width: 520px;
-  margin: 0 auto 60px;
+  margin: 0 auto 45px;
   font-size: 18px;
   line-height: 1.11;
   text-align: center;
@@ -5137,6 +5137,11 @@ label:focus .custom-textarea__label {
   width: 80px;
   height: 2px;
   background-color: #ffffff;
+}
+
+.about__achievement-prefix {
+  display: inline-block;
+  min-height: 20px;
 }
 
 .about__achievement-value {
@@ -7315,6 +7320,7 @@ li:nth-child(3n + 3) > .project-card .project-card__header {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  min-width: 100%;
 }
 
 .history__tabs::before {
@@ -7401,8 +7407,11 @@ li:nth-child(3n + 3) > .project-card .project-card__header {
 }
 
 .history__slide-desc {
-  margin: 0;
   margin-left: 20px;
+}
+
+.history__slide-desc p {
+  margin: 0;
 }
 
 .contacts {
